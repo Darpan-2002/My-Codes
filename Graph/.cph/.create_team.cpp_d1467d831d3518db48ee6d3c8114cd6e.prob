@@ -1,0 +1,1 @@
+{"name":"Local: create_team","url":"d:\\CODING\\Boolean\\Graph\\create_team.cpp","tests":[{"id":1681730386029,"input":"5 3\n1 2\n1 3\n4 5","output":"YES"},{"id":1681730423586,"input":"4 3\n1 2\n2 3\n1 3","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\Boolean\\Graph\\create_team.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: bfs_police_print_path","url":"d:\\CODING\\Boolean\\Graph\\bfs_police_print_path.cpp","tests":[{"id":1681629448922,"input":"6 6\nS.....\n.W.W.W\nR..W..\n......\n.D....\nE.....","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\Boolean\\Graph\\bfs_police_print_path.cpp","group":"local","local":true}

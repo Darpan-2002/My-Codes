@@ -1,0 +1,1 @@
+{"name":"Local: merge_array_dp","url":"d:\\CODING\\Boolean\\DP\\merge_array_dp.cpp","tests":[{"id":1686843971344,"input":"3\n1 2 4","output":"14"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\Boolean\\DP\\merge_array_dp.cpp","group":"local","local":true}

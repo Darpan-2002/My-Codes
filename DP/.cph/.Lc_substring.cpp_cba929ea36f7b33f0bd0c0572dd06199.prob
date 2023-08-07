@@ -1,0 +1,1 @@
+{"name":"Local: Lc_substring","url":"d:\\CODING\\Boolean\\DP\\Lc_substring.cpp","tests":[{"id":1686856018566,"input":"3\nabc abc\nalgozenith algo\nalgo zenith","output":"3\n4\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\Boolean\\DP\\Lc_substring.cpp","group":"local","local":true}

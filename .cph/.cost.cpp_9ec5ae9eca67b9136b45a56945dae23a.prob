@@ -1,0 +1,1 @@
+{"name":"Local: cost","url":"d:\\CODING\\Boolean\\cost.cpp","tests":[{"id":1679249915624,"input":"1\n9 32\n1 1 2 4 8 5 6 2 7\n10 14 18 96 47 15 21 23 5","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\Boolean\\cost.cpp","group":"local","local":true}

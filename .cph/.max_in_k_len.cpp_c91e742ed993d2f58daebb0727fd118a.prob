@@ -1,0 +1,1 @@
+{"name":"Local: max_in_k_len","url":"d:\\CODING\\Boolean\\max_in_k_len.cpp","tests":[{"id":1676498506205,"input":"1\n5 2\n1 2 3 4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\Boolean\\max_in_k_len.cpp","group":"local","local":true}

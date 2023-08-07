@@ -1,0 +1,1 @@
+{"name":"Local: number_of_rooms","url":"d:\\CODING\\Boolean\\Graph\\number_of_rooms.cpp","tests":[{"id":1680433832187,"input":"5 8\n########\n#..#...#\n####.#.#\n#..#...#\n########","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODING\\Boolean\\Graph\\number_of_rooms.cpp","group":"local","local":true}
