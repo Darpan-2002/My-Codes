@@ -1,3 +1,7 @@
+/*
+find max subarray length with <= k zeros
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
