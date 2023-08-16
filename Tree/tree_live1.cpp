@@ -26,36 +26,45 @@ using namespace std;
 int n;
 vector<vector<int>> adj;
 
+vector<int> val;
 vector<int> depth;
 vector<int> par;
 vector<int> sz;
+vector<int> min_val;
 
 vector<vector<int>> child;
 vector<vector<int>> anchestors;
 
-void dfs(int nn, int pp, int dd, vector<int>& exploring){
+int ans = 0;
+
+void dfs(int nn, int pp, int dd, map<int, int>& exploring){
     depth[nn] == dd;
     par[nn] = pp;
-    exploring.push_back(nn);
-    anchestors[nn] = exploring;
-    sz[nn] = 1;
+    // anchestors[nn] = exploring;
+    sz[nn] = val[nn];
+    min_val[nn] = val[nn];
+    ans += exploring[val[nn]];
+    exploring[val[nn]]++;
     for(auto it:adj[nn]){
         if(it != pp){
             dfs(it,nn,dd+1,exploring);
             sz[nn] += sz[it];
+            min_val[nn] = min(min_val[nn], min_val[it]);
             child[nn].push_back(it);
         }
     }
-    exploring.pop_back();
+    exploring[val[nn]]--;
 }
 
 void OM(){
     cin>>n;
     adj.resize(n+1);
+    val.resize(n+1);
     depth.resize(n+1);
     par.resize(n+1);
     child.resize(n+1);
     sz.resize(n+1);
+    min_val.resize(n+1);
     anchestors.resize(n+1);
     for(int i=0; i<n-1; i++){
         int a,b;
@@ -63,9 +72,12 @@ void OM(){
         adj[a].push_back(b);
         adj[b].push_back(a);
     }
+    for(int i=1; i<=n; i++){
+        cin>>val[i];
+    }
     int root;
     cin>>root;
-    vector<int> exploring;
+    map<int, int> exploring;
     dfs(root,0,0,exploring);
     int t_height=0;
     for(int i=1; i<=n; i++){
